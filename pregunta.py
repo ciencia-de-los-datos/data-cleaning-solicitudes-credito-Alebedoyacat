@@ -7,8 +7,6 @@ Realice la limpieza del dataframe. Los tests evaluan si la limpieza fue realizad
 import pandas as pd
 
 def clean_data():
-    
-    import pandas as pd
 
     # Lectura de la base de datos
     df = pd.read_csv("solicitudes_credito.csv", sep=";",index_col=0)
