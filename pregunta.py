@@ -8,6 +8,8 @@ import pandas as pd
 
 def clean_data():
     
+    import pandas as pd
+
     # Lectura de la base de datos
     df = pd.read_csv("solicitudes_credito.csv", sep=";",index_col=0)
     df.reset_index(inplace=True,drop=True)
